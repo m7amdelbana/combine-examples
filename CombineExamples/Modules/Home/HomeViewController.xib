@@ -18,7 +18,7 @@
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" spacing="60" translatesAutoresizingMaskIntoConstraints="NO" id="QVn-Ia-y0Y">
-                    <rect key="frame" x="78" y="72" width="234" height="415"/>
+                    <rect key="frame" x="78" y="72" width="234" height="490"/>
                     <subviews>
                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="yed-0P-LSO">
                             <rect key="frame" x="0.0" y="0.0" width="234" height="150"/>
@@ -27,7 +27,7 @@
                             </constraints>
                         </imageView>
                         <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="e0Z-QM-wbr">
-                            <rect key="frame" x="0.0" y="210" width="234" height="205"/>
+                            <rect key="frame" x="0.0" y="210" width="234" height="280"/>
                             <subviews>
                                 <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Psi-Cu-g6F">
                                     <rect key="frame" x="0.0" y="0.0" width="234" height="55"/>
@@ -66,6 +66,19 @@
                                     </buttonConfiguration>
                                     <connections>
                                         <action selector="actionExample:" destination="-1" eventType="touchUpInside" id="pnH-By-oJr"/>
+                                    </connections>
+                                </button>
+                                <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FtC-Rj-jZ6">
+                                    <rect key="frame" x="0.0" y="225" width="234" height="55"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="55" id="SOT-50-tL7"/>
+                                    </constraints>
+                                    <state key="normal" title="Button"/>
+                                    <buttonConfiguration key="configuration" style="filled" title="Example 4">
+                                        <fontDescription key="titleFontDescription" type="system" weight="semibold" pointSize="18"/>
+                                    </buttonConfiguration>
+                                    <connections>
+                                        <action selector="actionExample:" destination="-1" eventType="touchUpInside" id="aGk-RA-feE"/>
                                     </connections>
                                 </button>
                             </subviews>

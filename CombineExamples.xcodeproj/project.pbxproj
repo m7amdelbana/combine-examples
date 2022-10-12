@@ -30,6 +30,9 @@
 		548A9A4928F5BB220014E92A /* ExampleTwoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548A9A4828F5BB220014E92A /* ExampleTwoViewModel.swift */; };
 		548A9A4D28F5C9E60014E92A /* LoadingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548A9A4B28F5C9E60014E92A /* LoadingController.swift */; };
 		548A9A4E28F5C9E60014E92A /* LoadingController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 548A9A4C28F5C9E60014E92A /* LoadingController.xib */; };
+		549D1CCC28F76EA200B5DC84 /* ExampleFourViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549D1CCA28F76EA200B5DC84 /* ExampleFourViewController.swift */; };
+		549D1CCD28F76EA200B5DC84 /* ExampleFourViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 549D1CCB28F76EA200B5DC84 /* ExampleFourViewController.xib */; };
+		549D1CD128F76F0300B5DC84 /* ImageProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 549D1CD028F76F0300B5DC84 /* ImageProcessor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,6 +62,9 @@
 		548A9A4828F5BB220014E92A /* ExampleTwoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleTwoViewModel.swift; sourceTree = "<group>"; };
 		548A9A4B28F5C9E60014E92A /* LoadingController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingController.swift; sourceTree = "<group>"; };
 		548A9A4C28F5C9E60014E92A /* LoadingController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoadingController.xib; sourceTree = "<group>"; };
+		549D1CCA28F76EA200B5DC84 /* ExampleFourViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExampleFourViewController.swift; sourceTree = "<group>"; };
+		549D1CCB28F76EA200B5DC84 /* ExampleFourViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ExampleFourViewController.xib; sourceTree = "<group>"; };
+		549D1CD028F76F0300B5DC84 /* ImageProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageProcessor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -190,6 +196,7 @@
 				548A9A2D28F5A9DE0014E92A /* ExampleOne */,
 				548A9A4128F5BAE90014E92A /* ExampleTwo */,
 				547543A728F61E8A00EF18AF /* ExampleThree */,
+				549D1CC928F76E8A00B5DC84 /* ExampleFour */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -264,6 +271,32 @@
 			path = Utilities;
 			sourceTree = "<group>";
 		};
+		549D1CC928F76E8A00B5DC84 /* ExampleFour */ = {
+			isa = PBXGroup;
+			children = (
+				549D1CCF28F76EFC00B5DC84 /* Entity */,
+				549D1CCE28F76EF500B5DC84 /* View */,
+			);
+			path = ExampleFour;
+			sourceTree = "<group>";
+		};
+		549D1CCE28F76EF500B5DC84 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				549D1CCA28F76EA200B5DC84 /* ExampleFourViewController.swift */,
+				549D1CCB28F76EA200B5DC84 /* ExampleFourViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		549D1CCF28F76EFC00B5DC84 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				549D1CD028F76F0300B5DC84 /* ImageProcessor.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -327,6 +360,7 @@
 				548A9A3E28F5B2550014E92A /* ExampleOneViewController.xib in Resources */,
 				548A9A4E28F5C9E60014E92A /* LoadingController.xib in Resources */,
 				547543C128F625D100EF18AF /* PostCell.xib in Resources */,
+				549D1CCD28F76EA200B5DC84 /* ExampleFourViewController.xib in Resources */,
 				548A9A1F28F5A64C0014E92A /* Assets.xcassets in Resources */,
 				548A9A3A28F5B1650014E92A /* HomeViewController.xib in Resources */,
 				547543AB28F61EA300EF18AF /* ExampleThreeViewController.xib in Resources */,
@@ -342,6 +376,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				547543B328F621D200EF18AF /* API.swift in Sources */,
+				549D1CCC28F76EA200B5DC84 /* ExampleFourViewController.swift in Sources */,
 				547543BC28F6259800EF18AF /* UITableView+Extensions.swift in Sources */,
 				548A9A3928F5B1650014E92A /* HomeViewController.swift in Sources */,
 				548A9A4D28F5C9E60014E92A /* LoadingController.swift in Sources */,
@@ -353,6 +388,7 @@
 				548A9A1628F5A64B0014E92A /* AppDelegate.swift in Sources */,
 				547543AA28F61EA300EF18AF /* ExampleThreeViewController.swift in Sources */,
 				548A9A3028F5A9F60014E92A /* ExampleOneViewController.swift in Sources */,
+				549D1CD128F76F0300B5DC84 /* ImageProcessor.swift in Sources */,
 				548A9A4928F5BB220014E92A /* ExampleTwoViewModel.swift in Sources */,
 				548A9A1828F5A64B0014E92A /* SceneDelegate.swift in Sources */,
 				547543C028F625D100EF18AF /* PostCell.swift in Sources */,

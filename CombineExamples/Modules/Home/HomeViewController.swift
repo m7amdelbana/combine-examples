@@ -28,6 +28,7 @@ class HomeViewController: UIViewController {
         case 1: push(of: ExampleOneViewController())
         case 2: push(of: ExampleTwoViewController())
         case 3: push(of: ExampleThreeViewController())
+        case 4: push(of: ExampleFourViewController())
         default: break
         }
     }
